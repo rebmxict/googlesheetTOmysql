@@ -126,7 +126,7 @@ def pushData(sheetData):
     mycursor.execute(query)
     mydb.commit()
 
-    sheets = sheetData[:10]
+    sheets = sheetData[:11]
     err_in_query_run = []
     table_index = 0
     for tableData in sheets:
